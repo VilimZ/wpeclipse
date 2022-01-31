@@ -1,0 +1,14 @@
+.site-footer {
+  padding: 0 0 0 2rem;
+
+  color: navajowhite;
+  &:hover > a, & > a {
+    color: navajowhite;
+
+  }
+
+  a {
+    color: navajowhite;
+    text-decoration: none;
+  }
+}
