@@ -1,5 +1,8 @@
 .site-footer {
   padding: 0 0 0 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
   color: navajowhite;
   &:hover > a, & > a {
