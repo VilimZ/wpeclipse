@@ -176,3 +176,37 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+//Custom oEmbed Size
+// function wpb_oembed_defaults($embed_size) {
+// if(is_front_page()) {
+//         $embed_size['width'] = 940;
+//         $embed_size['height'] = 600;
+// }
+// else {
+//     $embed_size['width'] = 600;
+//         $embed_size['height'] = 338;
+// }
+//     return $embed_size;
+// }
+// add_filter('embed_defaults', 'wpb_oembed_defaults');
+
+function my_class_names($classes) {
+	if(is_front_page()){
+
+
+    // add 'class-name' to the $classes array
+    $classes[] = 'wpb-class';
+    // return the $classes array
+    return $classes;
+		}
+		else {
+			unset( $classes['wpb-class'] );
+
+ return $classes;
+ }
+
+}
+
+//Now add test class to the filter
+add_filter('body_class','my_class_names');
