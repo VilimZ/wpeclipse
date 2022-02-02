@@ -955,11 +955,25 @@ All WPEclispe importetd styles
 /* Footer
 ----------------------------------------------*/
 .site-footer {
+	width: 100%;
+	color: navajowhite;
+}
+
+.site-footer-landing {
 	padding: 0 0 0 2rem;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	color: navajowhite;
+}
+
+.site-footer-landing:hover > a, .site-footer-landing > a {
+	color: navajowhite;
+}
+
+.site-footer-landing a {
+	color: navajowhite;
+	text-decoration: none;
 }
 
 .site-footer:hover > a, .site-footer > a {

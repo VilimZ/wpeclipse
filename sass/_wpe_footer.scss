@@ -1,7 +1,23 @@
 .site-footer {
-  padding: 0 0 0 2rem;
-  position: absolute;
-  bottom: 0;
+  &-landing{
+    padding: 0 0 0 2rem;
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    color: navajowhite;
+
+    &:hover > a, & > a {
+      color: navajowhite;
+
+    }
+
+    a, {
+      color: navajowhite;
+      text-decoration: none;
+    }
+  }
+
   width: 100%;
 
   color: navajowhite;
@@ -10,7 +26,7 @@
 
   }
 
-  a {
+  a, {
     color: navajowhite;
     text-decoration: none;
   }

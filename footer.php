@@ -11,7 +11,11 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="<?php if(is_front_page()){
+		echo "site-footer-landing";	}
+		else {
+			echo "site-footer";
+		} ?>">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wpeclipse' ) ); ?>">
 				<?php
