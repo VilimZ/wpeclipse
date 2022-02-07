@@ -16,13 +16,16 @@
 		else {
 			echo "site-footer";
 		} ?>">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wpeclipse' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'wpeclipse' ), 'WordPress' );
-				?>
-			</a>
+		<div class="site-info wpe-footer">
+	   <?php
+          wp_nav_menu(
+						array(
+							'theme_location' => 'footer-menu',
+							'menu_id' 			 => 'footer-menu'
+						)
+					);
+		  ?>
+
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */

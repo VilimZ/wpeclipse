@@ -960,7 +960,6 @@ All WPEclispe importetd styles
 }
 
 .site-footer-landing {
-	padding: 0 0 0 2rem;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -983,6 +982,18 @@ All WPEclispe importetd styles
 .site-footer a {
 	color: navajowhite;
 	text-decoration: none;
+}
+
+.wpe-footer {
+	display: flex;
+}
+
+.wpe-footer ul, .wpe-footer li {
+	list-style: none;
+}
+
+.sep {
+	padding: 0 1rem 0 1rem;
 }
 
 /* Landing page
