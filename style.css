@@ -1195,4 +1195,18 @@ mask-image: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,
 	}
 }
 
+/* Contact page
+----------------------------------------------*/
+.wpe-contact-entry-content {
+	padding: 10rem;
+	width: 70%;
+	margin: auto;
+}
+
+.wpe-contact-message {
+	font-size: x-large;
+	font-family: monospace;
+	color: navajowhite;
+}
+
 /*# sourceMappingURL=style.css.map */
