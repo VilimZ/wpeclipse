@@ -989,7 +989,9 @@ All WPEclispe importetd styles
 }
 
 .wpe-footer ul, .wpe-footer li {
+	display: flex;
 	list-style: none;
+	padding-left: 1rem;
 }
 
 .sep {
