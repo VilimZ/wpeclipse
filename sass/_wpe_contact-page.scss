@@ -1,5 +1,5 @@
 .wpe-contact-entry-content {
-    padding: 10rem;
+    padding: 10rem 10rem 0 10rem;
     //background-color: navajowhite;
    // min-height: 60vh;
    width: 70%;
@@ -10,6 +10,11 @@
     font-family: monospace;
     color: navajowhite;
 }
-.wpe-contact-form {
-    
+.wpe-contact-form { 
+    width: 100%;
+}
+.wpe-contact-form-container {
+    overflow: hidden;
+    background-color: gray;
+    padding: 1rem;
 }
