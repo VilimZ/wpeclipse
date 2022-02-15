@@ -25,6 +25,7 @@
 				wpeclipse_posted_on();
 				wpeclipse_posted_by();
 				?>
+				<hr>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
