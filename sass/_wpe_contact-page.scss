@@ -4,17 +4,26 @@
    // min-height: 60vh;
    width: 70%;
    margin: auto;
-}
-.wpe-contact-message, .wpe-contact-form {
-    font-size: x-large;
-    font-family: monospace;
-    color: navajowhite;
-}
-.wpe-contact-form { 
-    width: 100%;
-}
-.wpe-contact-form-container {
-    overflow: hidden;
-    background-color: gray;
-    padding: 1rem;
+   color: navajowhite;
+   font-family: monospace;
+
+   p {
+       //font-size: px;
+   }
+
+   input, textarea {
+       background-color: whitesmoke;
+       //color: whitesmoke;
+       width: 19rem;
+   }
+
+   input[type=submit] {
+       width: 10rem;
+       font-family: monospace;
+       font-weight: 700;
+   }
+
+   textarea {
+       resize: none;
+   }
 }
