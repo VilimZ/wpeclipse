@@ -26,10 +26,12 @@
 					);
 		  ?>
 
-			<span class="sep"> | </span>
+			<span class="sep"><?php echo date("Y"); ?> | </span>
+
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'wpeclipse' ), 'wpeclipse', '<a href="http://wpeclipse.com">Wpeclipse</a>' );
+				//printf( esc_html__( 'Theme: %1$s by %2$s.', 'wpeclipse' ), 'wpeclipse', '<a href="http://wpeclipse.com">Wpeclipse</a>' );
+				//printf( esc_html__( 'Theme: %1$s by %2$s.', 'wpeclipse' ), 'wpeclipse', '<a href="http://wpeclipse.com">Wpeclipse</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
