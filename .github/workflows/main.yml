@@ -19,5 +19,5 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         protocol: ftps
-        port: 1234 # todo replace with your web hosts ftps port
+        port: 22 # todo replace with your web hosts ftps port
         server-dir: /home/dh_9fm8xx/wpeclipse.com/wp-content/themes/wpeclipse/
