@@ -26,7 +26,7 @@
 					);
 		  ?>
 
-			<span class="sep"><?php echo date("Y"); ?> | </span>
+			<span class="sep"><?php echo date("Y"); ?> | 2</span>
 
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
