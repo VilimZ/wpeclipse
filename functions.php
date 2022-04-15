@@ -140,8 +140,10 @@ add_action( 'widgets_init', 'wpeclipse_widgets_init' );
  * Enqueue scripts and styles.
  */
 function wpeclipse_scripts() {
+	wp_enqueue_style( 'wpeclipse-google-fonts','src="https://fonts.googleapis.com/icon?family=Material+Icons' );
 	wp_enqueue_style( 'wpeclipse-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'wpeclipse-style', 'rtl', 'replace' );
+	
 
 	wp_enqueue_script( 'wpeclipse-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'wpeclipse-timer', get_template_directory_uri() . '/js/timer.js', array(), _S_VERSION, true );

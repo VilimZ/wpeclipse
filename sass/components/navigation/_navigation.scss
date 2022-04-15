@@ -82,6 +82,19 @@
 .main-navigation.toggled ul {
 	display: block;
 }
+.toggled {
+	background-color: darkorange;
+    position: absolute;
+    min-height: -webkit-fill-available;
+    z-index: 100;
+
+	button {
+		//visibility: hidden;
+		max-width: 30px;
+		max-height: 30px;
+		margin: auto;
+	}
+}
 
 @media screen and (min-width: 37.5em) {
 
@@ -93,6 +106,7 @@
 		display: flex;
 	}
 }
+
 
 .comment-navigation,
 .posts-navigation,
