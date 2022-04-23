@@ -546,10 +546,11 @@ input[type="submit"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
-	background: #e6e6e6;
+	background: navajowhite;
 	color: rgba(0, 0, 0, 0.8);
 	line-height: 1;
-	padding: 0.6em 1em 0.4em;
+	padding: 5px 15px 5px 15px;
+	font-size: xx-large;
 }
 
 button:hover,
@@ -725,16 +726,33 @@ textarea {
 }
 
 .toggled {
-	background-color: darkorange;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #2c0303d4;
 	position: absolute;
 	min-height: -webkit-fill-available;
 	z-index: 100;
+	text-align: center;
+	animation: menu-bc-color 1s;
 }
 
 .toggled button {
-	max-width: 30px;
-	max-height: 30px;
-	margin: auto;
+	min-width: 80px;
+	min-height: 80px;
+	border-radius: 50px;
+	background-color: navajowhite;
+	font-size: xx-large;
+}
+
+@keyframes menu-bc-color {
+	from {
+		background-color: transparent;
+	}
+	to {
+		background-color: #2c0303d4;
+	}
 }
 
 @media screen and (min-width: 37.5em) {
