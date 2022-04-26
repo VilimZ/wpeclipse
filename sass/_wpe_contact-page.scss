@@ -26,4 +26,11 @@
    textarea {
        resize: none;
    }
+
+   @media only screen and (max-width: 393px) {
+       
+       padding: 2px;    
+                   
+    }
+   
 }

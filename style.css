@@ -638,6 +638,12 @@ textarea {
 	/* Resolves issue with <pre> elements forcing full width. */
 }
 
+@media only screen and (max-width: 393px) {
+	.site-main {
+		min-width: 95%;
+	}
+}
+
 .widget-area {
 	grid-area: sidebar;
 }
@@ -1279,6 +1285,12 @@ mask-image: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,
 
 .wpe-contact-entry-content textarea {
 	resize: none;
+}
+
+@media only screen and (max-width: 393px) {
+	.wpe-contact-entry-content {
+		padding: 2px;
+	}
 }
 
 /* Blog page
